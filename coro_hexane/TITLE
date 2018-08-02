@@ -1,0 +1,16 @@
+run_type md
+coord points
+max_steps 10
+velocitize true
+single_params_file true
+efp_params_file system.efp
+enable_ff true
+enable_pbc false
+periodic_box 50 50 50
+ff_geometry mod_6pcoro_260hexane.xyz
+ff_parameters "/home/ybui/tinker3/params/oplsaa.prm"
+pol_driver direct
+elec_damp overlap
+disp_damp overlap
+pol_damp tt
+efp_ff_iter 100

@@ -1,0 +1,19 @@
+run_type md
+coord points
+velocitize true
+enable_pbc true
+periodic_box 18.3 18.3 18.3
+ensemble nve
+time_step 1
+max_steps 200
+enable_smd_constant_velocity true
+smd_velocity_constant .01
+smd_spring_constant_ref 0.1
+smd_spring_constant_pull .001
+pull_ref 0
+pull_frag 1
+pull_force_direction z_direction
+temperature 300
+fraglib_path ../fraglib
+
+
